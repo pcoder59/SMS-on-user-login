@@ -22,7 +22,7 @@ while connected:
         print("Someone Logged in!!!")
         time = b
         resp = requests.post('https://textbelt.com/text', {
-        'phone': '+918606672580',
+        'phone': 'YOUR PHONE NUMBER',
         'message': "Someone Just Logged in!!!",
         'key': 'textbelt',
         })
